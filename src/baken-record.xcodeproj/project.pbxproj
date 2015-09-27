@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2F8731381BB811AC002E4C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8731371BB811AC002E4C59 /* AppDelegate.swift */; };
-		2F87313A1BB811AC002E4C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8731391BB811AC002E4C59 /* ViewController.swift */; };
 		2F87313D1BB811AC002E4C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F87313B1BB811AC002E4C59 /* Main.storyboard */; };
 		2F8731401BB811AC002E4C59 /* baken_record.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F87313E1BB811AC002E4C59 /* baken_record.xcdatamodeld */; };
 		2F8731421BB811AC002E4C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8731411BB811AC002E4C59 /* Assets.xcassets */; };
 		2F8731451BB811AC002E4C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8731431BB811AC002E4C59 /* LaunchScreen.storyboard */; };
 		2F8731501BB811AC002E4C59 /* baken_recordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87314F1BB811AC002E4C59 /* baken_recordTests.swift */; };
 		2F87315B1BB811AC002E4C59 /* baken_recordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87315A1BB811AC002E4C59 /* baken_recordUITests.swift */; };
+		2F8731701BB81A0F002E4C59 /* BRContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87316E1BB81A0F002E4C59 /* BRContainerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2F8731711BB81A0F002E4C59 /* BRContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F87316F1BB81A0F002E4C59 /* BRContainerViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		2F8731341BB811AC002E4C59 /* baken-record.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baken-record.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8731371BB811AC002E4C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F8731391BB811AC002E4C59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F87313C1BB811AC002E4C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F87313F1BB811AC002E4C59 /* baken_record.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = baken_record.xcdatamodel; sourceTree = "<group>"; };
 		2F8731411BB811AC002E4C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		2F8731561BB811AC002E4C59 /* baken-recordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baken-recordUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F87315A1BB811AC002E4C59 /* baken_recordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baken_recordUITests.swift; sourceTree = "<group>"; };
 		2F87315C1BB811AC002E4C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F87316E1BB81A0F002E4C59 /* BRContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BRContainerViewController.swift; path = Containers/BRContainerViewController.swift; sourceTree = "<group>"; };
+		2F87316F1BB81A0F002E4C59 /* BRContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRContainerViewController.xib; path = Containers/BRContainerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,7 @@
 		2F8731361BB811AC002E4C59 /* baken-record */ = {
 			isa = PBXGroup;
 			children = (
-				2F8731371BB811AC002E4C59 /* AppDelegate.swift */,
-				2F8731391BB811AC002E4C59 /* ViewController.swift */,
+				2F8731681BB81743002E4C59 /* Classes */,
 				2F87313B1BB811AC002E4C59 /* Main.storyboard */,
 				2F8731411BB811AC002E4C59 /* Assets.xcassets */,
 				2F8731431BB811AC002E4C59 /* LaunchScreen.storyboard */,
@@ -126,6 +127,32 @@
 				2F87315C1BB811AC002E4C59 /* Info.plist */,
 			);
 			path = "baken-recordUITests";
+			sourceTree = "<group>";
+		};
+		2F8731681BB81743002E4C59 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F87316A1BB81981002E4C59 /* ViewControllers */,
+				2F8731371BB811AC002E4C59 /* AppDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2F87316A1BB81981002E4C59 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F87316B1BB819A7002E4C59 /* Containers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2F87316B1BB819A7002E4C59 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				2F87316E1BB81A0F002E4C59 /* BRContainerViewController.swift */,
+				2F87316F1BB81A0F002E4C59 /* BRContainerViewController.xib */,
+			);
+			name = Containers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8731711BB81A0F002E4C59 /* BRContainerViewController.xib in Resources */,
 				2F8731451BB811AC002E4C59 /* LaunchScreen.storyboard in Resources */,
 				2F8731421BB811AC002E4C59 /* Assets.xcassets in Resources */,
 				2F87313D1BB811AC002E4C59 /* Main.storyboard in Resources */,
@@ -258,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F87313A1BB811AC002E4C59 /* ViewController.swift in Sources */,
+				2F8731701BB81A0F002E4C59 /* BRContainerViewController.swift in Sources */,
 				2F8731401BB811AC002E4C59 /* baken_record.xcdatamodeld in Sources */,
 				2F8731381BB811AC002E4C59 /* AppDelegate.swift in Sources */,
 			);
@@ -485,6 +513,7 @@
 				2F8731611BB811AC002E4C59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F8731621BB811AC002E4C59 /* Build configuration list for PBXNativeTarget "baken-recordTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +522,7 @@
 				2F8731641BB811AC002E4C59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F8731651BB811AC002E4C59 /* Build configuration list for PBXNativeTarget "baken-recordUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +531,7 @@
 				2F8731671BB811AC002E4C59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
