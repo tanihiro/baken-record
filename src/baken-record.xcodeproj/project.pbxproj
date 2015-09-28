@@ -32,6 +32,8 @@
 		2F87315B1BB811AC002E4C59 /* baken_recordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87315A1BB811AC002E4C59 /* baken_recordUITests.swift */; };
 		2F8731701BB81A0F002E4C59 /* BRContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87316E1BB81A0F002E4C59 /* BRContainerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2F8731711BB81A0F002E4C59 /* BRContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F87316F1BB81A0F002E4C59 /* BRContainerViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		2FE494B11BB99E7C00909DDA /* BRDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE494AF1BB99E7C00909DDA /* BRDateViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2FE494B21BB99E7C00909DDA /* BRDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE494B01BB99E7C00909DDA /* BRDateViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		2F87315C1BB811AC002E4C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F87316E1BB81A0F002E4C59 /* BRContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BRContainerViewController.swift; path = Containers/BRContainerViewController.swift; sourceTree = "<group>"; };
 		2F87316F1BB81A0F002E4C59 /* BRContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRContainerViewController.xib; path = Containers/BRContainerViewController.xib; sourceTree = "<group>"; };
+		2FE494AF1BB99E7C00909DDA /* BRDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRDateViewController.swift; sourceTree = "<group>"; };
+		2FE494B01BB99E7C00909DDA /* BRDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRDateViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 				2F5310501BB8406500D22D9C /* BRRecordViewController.xib */,
 				2F0EB4B51BB981B600EAF4C5 /* BRCorseListViewController.swift */,
 				2F0EB4B61BB981B600EAF4C5 /* BRCorseListViewController.xib */,
+				2FE494AF1BB99E7C00909DDA /* BRDateViewController.swift */,
+				2FE494B01BB99E7C00909DDA /* BRDateViewController.xib */,
 			);
 			path = Record;
 			sourceTree = "<group>";
@@ -348,6 +354,7 @@
 				2F5310521BB8406500D22D9C /* BRRecordViewController.xib in Resources */,
 				2F0EB4A21BB95D3200EAF4C5 /* BRMoneyCell.xib in Resources */,
 				2F87313D1BB811AC002E4C59 /* Main.storyboard in Resources */,
+				2FE494B21BB99E7C00909DDA /* BRDateViewController.xib in Resources */,
 				2F0EB4A61BB9631200EAF4C5 /* BRDataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +391,7 @@
 				2F8731401BB811AC002E4C59 /* baken_record.xcdatamodeld in Sources */,
 				2F0EB4AD1BB964C400EAF4C5 /* BRTextareaCell.swift in Sources */,
 				2F8731381BB811AC002E4C59 /* AppDelegate.swift in Sources */,
+				2FE494B11BB99E7C00909DDA /* BRDateViewController.swift in Sources */,
 				2F0EB4B41BB97F4300EAF4C5 /* BRCustomTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

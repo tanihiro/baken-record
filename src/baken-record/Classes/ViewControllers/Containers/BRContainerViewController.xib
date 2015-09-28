@@ -25,13 +25,13 @@
                     </items>
                 </tabBar>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhX-WX-10W">
-                    <rect key="frame" x="201" y="538" width="198" height="69"/>
+                    <rect key="frame" x="201" y="546" width="198" height="61"/>
                     <color key="backgroundColor" red="0.80392156859999997" green="0.80392156859999997" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <inset key="imageEdgeInsets" minX="0.0" minY="-20" maxX="0.0" maxY="0.0"/>
                     <state key="normal" image="ico_hoof"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                            <real key="value" value="10"/>
+                            <real key="value" value="5"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                             <color key="value" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -45,7 +45,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="記録" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EJ-vb-Ohi">
-                    <rect key="frame" x="289" y="585" width="22" height="14"/>
+                    <rect key="frame" x="289" y="584.5" width="22" height="13.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -61,12 +61,12 @@
                 <constraint firstItem="jhX-WX-10W" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.33" id="Oif-Ft-uWc"/>
                 <constraint firstAttribute="bottom" secondItem="jhX-WX-10W" secondAttribute="bottom" constant="-7" id="PcG-MP-Ruc"/>
                 <constraint firstItem="Utd-pZ-glu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bn8-nE-znq"/>
-                <constraint firstItem="jhX-WX-10W" firstAttribute="height" secondItem="Utd-pZ-glu" secondAttribute="height" multiplier="1.4" id="dKH-hB-mnE"/>
+                <constraint firstItem="jhX-WX-10W" firstAttribute="height" secondItem="Utd-pZ-glu" secondAttribute="height" multiplier="1.25" id="dKH-hB-mnE"/>
             </constraints>
         </view>
     </objects>
     <resources>
-        <image name="ico_analysis" width="15" height="15"/>
+        <image name="ico_analysis" width="22" height="22"/>
         <image name="ico_hoof" width="32" height="32"/>
         <image name="ico_list" width="22" height="22"/>
     </resources>
