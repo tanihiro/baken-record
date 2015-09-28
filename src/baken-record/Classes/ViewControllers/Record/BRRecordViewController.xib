@@ -19,14 +19,33 @@
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOv-Su-Egf">
+                    <rect key="frame" x="0.0" y="560" width="600" height="40"/>
+                    <color key="backgroundColor" red="0.29019607843137252" green="0.58039215686274503" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="UOR-pM-t31"/>
+                    </constraints>
+                    <state key="normal" title="記録する">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="hHt-Vp-mPt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1Jz-Lw-fvC"/>
+                <constraint firstAttribute="bottom" secondItem="sOv-Su-Egf" secondAttribute="bottom" id="SDa-pN-MR6"/>
                 <constraint firstAttribute="trailing" secondItem="hHt-Vp-mPt" secondAttribute="trailing" id="TIf-7V-vcx"/>
+                <constraint firstItem="sOv-Su-Egf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Vuc-ao-L9h"/>
                 <constraint firstAttribute="bottom" secondItem="hHt-Vp-mPt" secondAttribute="bottom" id="bVA-Al-ub7"/>
                 <constraint firstItem="hHt-Vp-mPt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="eLI-OK-BHV"/>
+                <constraint firstAttribute="trailing" secondItem="sOv-Su-Egf" secondAttribute="trailing" id="niK-mw-DI3"/>
+                <constraint firstItem="sOv-Su-Egf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="t9A-Mz-iCl"/>
             </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="t9A-Mz-iCl"/>
+                </mask>
+            </variation>
         </view>
     </objects>
 </document>

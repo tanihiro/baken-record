@@ -22,7 +22,6 @@ class BRRecordViewController: UIViewController, UITableViewDelegate, UITableView
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        title = "記録する"
         let closeButton = UIBarButtonItem(image: UIImage(named: "ico_close"), style: .Plain, target: self, action: "_touchCloseButton:");
         navigationItem.rightBarButtonItem = closeButton
         
