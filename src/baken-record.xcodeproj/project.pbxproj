@@ -17,6 +17,7 @@
 		2F0EB4AE1BB964C400EAF4C5 /* BRTextareaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EB4AC1BB964C400EAF4C5 /* BRTextareaCell.xib */; settings = {ASSET_TAGS = (); }; };
 		2F0EB4B11BB9778B00EAF4C5 /* BRTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EB4AF1BB9778B00EAF4C5 /* BRTextCell.swift */; settings = {ASSET_TAGS = (); }; };
 		2F0EB4B21BB9778B00EAF4C5 /* BRTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EB4B01BB9778B00EAF4C5 /* BRTextCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2F0EB4B41BB97F4300EAF4C5 /* BRCustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EB4B31BB97F4300EAF4C5 /* BRCustomTextView.swift */; settings = {ASSET_TAGS = (); }; };
 		2F5310511BB8406500D22D9C /* BRRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F53104F1BB8406500D22D9C /* BRRecordViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2F5310521BB8406500D22D9C /* BRRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5310501BB8406500D22D9C /* BRRecordViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		2F5310581BB8B1B200D22D9C /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5310571BB8B1B200D22D9C /* UIView+IBInspectable.swift */; settings = {ASSET_TAGS = (); }; };
@@ -59,6 +60,7 @@
 		2F0EB4AC1BB964C400EAF4C5 /* BRTextareaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRTextareaCell.xib; sourceTree = "<group>"; };
 		2F0EB4AF1BB9778B00EAF4C5 /* BRTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRTextCell.swift; sourceTree = "<group>"; };
 		2F0EB4B01BB9778B00EAF4C5 /* BRTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRTextCell.xib; sourceTree = "<group>"; };
+		2F0EB4B31BB97F4300EAF4C5 /* BRCustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRCustomTextView.swift; sourceTree = "<group>"; };
 		2F53104F1BB8406500D22D9C /* BRRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRRecordViewController.swift; sourceTree = "<group>"; };
 		2F5310501BB8406500D22D9C /* BRRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRRecordViewController.xib; sourceTree = "<group>"; };
 		2F5310571BB8B1B200D22D9C /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				2F5310571BB8B1B200D22D9C /* UIView+IBInspectable.swift */,
+				2F0EB4B31BB97F4300EAF4C5 /* BRCustomTextView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				2F8731401BB811AC002E4C59 /* baken_record.xcdatamodeld in Sources */,
 				2F0EB4AD1BB964C400EAF4C5 /* BRTextareaCell.swift in Sources */,
 				2F8731381BB811AC002E4C59 /* AppDelegate.swift in Sources */,
+				2F0EB4B41BB97F4300EAF4C5 /* BRCustomTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

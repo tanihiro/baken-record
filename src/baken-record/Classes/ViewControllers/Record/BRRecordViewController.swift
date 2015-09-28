@@ -14,7 +14,7 @@ class BRRecordViewController: UIViewController, UITableViewDelegate, UITableView
         case Money = 0, Date, RaceTitle, Corse, Distance, Grade, Type, Memo
     }
     
-    var cellTypes: [CellType] = []
+    var cellTypes: [[CellType]] = []
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -36,7 +36,7 @@ class BRRecordViewController: UIViewController, UITableViewDelegate, UITableView
         tableView.tableFooterView = UIView(frame: CGRectZero)
 
         
-        cellTypes = [.Money, .Date, .RaceTitle, .Corse, .Distance, .Grade, .Type, .Memo]
+        cellTypes = [[.Money, .Date], [.RaceTitle, .Corse, .Distance, .Grade, .Type, .Memo]]
     }
 
     override func didReceiveMemoryWarning() {
@@ -48,6 +48,18 @@ class BRRecordViewController: UIViewController, UITableViewDelegate, UITableView
         dismissViewControllerAnimated(true, completion: nil)
     }
     
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return cellTypes.count
+    }
+    
+    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section == 1 {
+            return "詳細設定（オプション）"
+        }
+        return nil
+    }
+    
+    
     func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
@@ -57,11 +69,11 @@ class BRRecordViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return cellTypes.count
+        return cellTypes[section].count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        switch cellTypes[indexPath.row] {
+        switch cellTypes[indexPath.section][indexPath.row] {
         case .Money:
             let cell = tableView.dequeueReusableCellWithIdentifier("BRMoneyCell") as! BRMoneyCell
             return cell
