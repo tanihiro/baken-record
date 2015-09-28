@@ -112,4 +112,14 @@ class BRRecordViewController: UIViewController, UITableViewDelegate, UITableView
         }
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        switch cellTypes[indexPath.section][indexPath.row] {
+        case .Corse:
+            let viewController = BRCorseListViewController()
+            navigationController?.pushViewController(viewController, animated: true)
+            return
+        default:
+            print("hoge")
+        }
+    }
 }

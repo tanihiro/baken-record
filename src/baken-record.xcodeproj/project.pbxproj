@@ -18,6 +18,8 @@
 		2F0EB4B11BB9778B00EAF4C5 /* BRTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EB4AF1BB9778B00EAF4C5 /* BRTextCell.swift */; settings = {ASSET_TAGS = (); }; };
 		2F0EB4B21BB9778B00EAF4C5 /* BRTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EB4B01BB9778B00EAF4C5 /* BRTextCell.xib */; settings = {ASSET_TAGS = (); }; };
 		2F0EB4B41BB97F4300EAF4C5 /* BRCustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EB4B31BB97F4300EAF4C5 /* BRCustomTextView.swift */; settings = {ASSET_TAGS = (); }; };
+		2F0EB4B71BB981B600EAF4C5 /* BRCorseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EB4B51BB981B600EAF4C5 /* BRCorseListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2F0EB4B81BB981B600EAF4C5 /* BRCorseListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EB4B61BB981B600EAF4C5 /* BRCorseListViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		2F5310511BB8406500D22D9C /* BRRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F53104F1BB8406500D22D9C /* BRRecordViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2F5310521BB8406500D22D9C /* BRRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5310501BB8406500D22D9C /* BRRecordViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		2F5310581BB8B1B200D22D9C /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5310571BB8B1B200D22D9C /* UIView+IBInspectable.swift */; settings = {ASSET_TAGS = (); }; };
@@ -61,6 +63,8 @@
 		2F0EB4AF1BB9778B00EAF4C5 /* BRTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRTextCell.swift; sourceTree = "<group>"; };
 		2F0EB4B01BB9778B00EAF4C5 /* BRTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRTextCell.xib; sourceTree = "<group>"; };
 		2F0EB4B31BB97F4300EAF4C5 /* BRCustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRCustomTextView.swift; sourceTree = "<group>"; };
+		2F0EB4B51BB981B600EAF4C5 /* BRCorseListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRCorseListViewController.swift; sourceTree = "<group>"; };
+		2F0EB4B61BB981B600EAF4C5 /* BRCorseListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRCorseListViewController.xib; sourceTree = "<group>"; };
 		2F53104F1BB8406500D22D9C /* BRRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRRecordViewController.swift; sourceTree = "<group>"; };
 		2F5310501BB8406500D22D9C /* BRRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRRecordViewController.xib; sourceTree = "<group>"; };
 		2F5310571BB8B1B200D22D9C /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 			children = (
 				2F53104F1BB8406500D22D9C /* BRRecordViewController.swift */,
 				2F5310501BB8406500D22D9C /* BRRecordViewController.xib */,
+				2F0EB4B51BB981B600EAF4C5 /* BRCorseListViewController.swift */,
+				2F0EB4B61BB981B600EAF4C5 /* BRCorseListViewController.xib */,
 			);
 			path = Record;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 				2F0EB4AA1BB9642400EAF4C5 /* BRSegmentCell.xib in Resources */,
 				2F8731451BB811AC002E4C59 /* LaunchScreen.storyboard in Resources */,
 				2F8731421BB811AC002E4C59 /* Assets.xcassets in Resources */,
+				2F0EB4B81BB981B600EAF4C5 /* BRCorseListViewController.xib in Resources */,
 				2F0EB4B21BB9778B00EAF4C5 /* BRTextCell.xib in Resources */,
 				2F0EB4AE1BB964C400EAF4C5 /* BRTextareaCell.xib in Resources */,
 				2F5310521BB8406500D22D9C /* BRRecordViewController.xib in Resources */,
@@ -367,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F0EB4A51BB9631200EAF4C5 /* BRDataCell.swift in Sources */,
+				2F0EB4B71BB981B600EAF4C5 /* BRCorseListViewController.swift in Sources */,
 				2F0EB4A11BB95D3200EAF4C5 /* BRMoneyCell.swift in Sources */,
 				2F8731701BB81A0F002E4C59 /* BRContainerViewController.swift in Sources */,
 				2F5310511BB8406500D22D9C /* BRRecordViewController.swift in Sources */,

@@ -66,7 +66,7 @@
         </view>
     </objects>
     <resources>
-        <image name="ico_analysis" width="22" height="22"/>
+        <image name="ico_analysis" width="15" height="15"/>
         <image name="ico_hoof" width="32" height="32"/>
         <image name="ico_list" width="22" height="22"/>
     </resources>
