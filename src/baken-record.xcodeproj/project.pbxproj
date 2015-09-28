@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F5310511BB8406500D22D9C /* BRRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F53104F1BB8406500D22D9C /* BRRecordViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2F5310521BB8406500D22D9C /* BRRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5310501BB8406500D22D9C /* BRRecordViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		2F5310581BB8B1B200D22D9C /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5310571BB8B1B200D22D9C /* UIView+IBInspectable.swift */; settings = {ASSET_TAGS = (); }; };
 		2F8731381BB811AC002E4C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8731371BB811AC002E4C59 /* AppDelegate.swift */; };
 		2F87313D1BB811AC002E4C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F87313B1BB811AC002E4C59 /* Main.storyboard */; };
 		2F8731401BB811AC002E4C59 /* baken_record.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F87313E1BB811AC002E4C59 /* baken_record.xcdatamodeld */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F53104F1BB8406500D22D9C /* BRRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRRecordViewController.swift; sourceTree = "<group>"; };
+		2F5310501BB8406500D22D9C /* BRRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRRecordViewController.xib; sourceTree = "<group>"; };
+		2F5310571BB8B1B200D22D9C /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
 		2F8731341BB811AC002E4C59 /* baken-record.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baken-record.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8731371BB811AC002E4C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F87313C1BB811AC002E4C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F53104E1BB8403000D22D9C /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				2F53104F1BB8406500D22D9C /* BRRecordViewController.swift */,
+				2F5310501BB8406500D22D9C /* BRRecordViewController.xib */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		2F5310561BB8B18000D22D9C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2F5310571BB8B1B200D22D9C /* UIView+IBInspectable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		2F87312B1BB811AC002E4C59 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +155,7 @@
 		2F8731681BB81743002E4C59 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2F5310561BB8B18000D22D9C /* Extension */,
 				2F87316A1BB81981002E4C59 /* ViewControllers */,
 				2F8731371BB811AC002E4C59 /* AppDelegate.swift */,
 			);
@@ -141,6 +165,7 @@
 		2F87316A1BB81981002E4C59 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2F53104E1BB8403000D22D9C /* Record */,
 				2F87316B1BB819A7002E4C59 /* Containers */,
 			);
 			path = ViewControllers;
@@ -261,6 +286,7 @@
 				2F8731711BB81A0F002E4C59 /* BRContainerViewController.xib in Resources */,
 				2F8731451BB811AC002E4C59 /* LaunchScreen.storyboard in Resources */,
 				2F8731421BB811AC002E4C59 /* Assets.xcassets in Resources */,
+				2F5310521BB8406500D22D9C /* BRRecordViewController.xib in Resources */,
 				2F87313D1BB811AC002E4C59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +313,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F8731701BB81A0F002E4C59 /* BRContainerViewController.swift in Sources */,
+				2F5310511BB8406500D22D9C /* BRRecordViewController.swift in Sources */,
+				2F5310581BB8B1B200D22D9C /* UIView+IBInspectable.swift in Sources */,
 				2F8731401BB811AC002E4C59 /* baken_record.xcdatamodeld in Sources */,
 				2F8731381BB811AC002E4C59 /* AppDelegate.swift in Sources */,
 			);

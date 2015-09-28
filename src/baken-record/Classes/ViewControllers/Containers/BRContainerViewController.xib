@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BRContainerViewController" customModule="baken_record" customModuleProvider="target">
@@ -13,7 +14,60 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Utd-pZ-glu">
+                    <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <tabBarItem title="分析" image="ico_analysis" id="bC3-dl-ejZ"/>
+                        <tabBarItem title="" id="Cbd-nP-8SV"/>
+                        <tabBarItem title="履歴" image="ico_list" id="W9I-ux-StY"/>
+                    </items>
+                </tabBar>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhX-WX-10W">
+                    <rect key="frame" x="201" y="538" width="198" height="68.5"/>
+                    <color key="backgroundColor" red="0.80392156859999997" green="0.80392156859999997" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="-20" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="ico_hoof"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="touchRecordButton:" destination="-1" eventType="touchUpInside" id="de6-Tm-ovn"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="記録" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EJ-vb-Ohi">
+                    <rect key="frame" x="289" y="584.5" width="22" height="13.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Utd-pZ-glu" secondAttribute="bottom" id="4E8-Tc-Uiu"/>
+                <constraint firstItem="jhX-WX-10W" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="DfV-Bv-t3F"/>
+                <constraint firstItem="0EJ-vb-Ohi" firstAttribute="centerX" secondItem="jhX-WX-10W" secondAttribute="centerX" id="Djh-Mv-9Fv"/>
+                <constraint firstAttribute="trailing" secondItem="Utd-pZ-glu" secondAttribute="trailing" id="FmJ-av-lhk"/>
+                <constraint firstAttribute="bottom" secondItem="0EJ-vb-Ohi" secondAttribute="bottom" constant="2" id="IMd-Ip-QQr"/>
+                <constraint firstItem="jhX-WX-10W" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.33" id="Oif-Ft-uWc"/>
+                <constraint firstAttribute="bottom" secondItem="jhX-WX-10W" secondAttribute="bottom" constant="-7" id="PcG-MP-Ruc"/>
+                <constraint firstItem="Utd-pZ-glu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bn8-nE-znq"/>
+                <constraint firstItem="jhX-WX-10W" firstAttribute="height" secondItem="Utd-pZ-glu" secondAttribute="height" multiplier="1.4" id="dKH-hB-mnE"/>
+            </constraints>
         </view>
     </objects>
+    <resources>
+        <image name="ico_analysis" width="22" height="22"/>
+        <image name="ico_hoof" width="32" height="32"/>
+        <image name="ico_list" width="22" height="22"/>
+    </resources>
 </document>
