@@ -4,9 +4,9 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BRCorseListViewController" customModule="baken_record" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BRDistanceViewController" customModule="baken_record" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="S38-32-DzZ" id="osi-Yh-jSD"/>
+                <outlet property="tableView" destination="DRb-05-NPc" id="Bug-Mm-dvr"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,18 +15,19 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="S38-32-DzZ">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="DRb-05-NPc">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="S38-32-DzZ" secondAttribute="bottom" id="7Zg-ss-YtL"/>
-                <constraint firstAttribute="trailing" secondItem="S38-32-DzZ" secondAttribute="trailing" id="96g-kL-Fbm"/>
-                <constraint firstItem="S38-32-DzZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Tcn-Qx-Bea"/>
-                <constraint firstItem="S38-32-DzZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="a8O-fQ-lMi"/>
+                <constraint firstAttribute="bottom" secondItem="DRb-05-NPc" secondAttribute="bottom" id="mE0-cS-1GX"/>
+                <constraint firstItem="DRb-05-NPc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ocr-hU-dnZ"/>
+                <constraint firstItem="DRb-05-NPc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="u59-ea-Wp1"/>
+                <constraint firstAttribute="trailing" secondItem="DRb-05-NPc" secondAttribute="trailing" id="v1Y-1O-gpe"/>
             </constraints>
+            <point key="canvasLocation" x="254" y="253"/>
         </view>
     </objects>
 </document>

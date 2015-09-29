@@ -117,9 +117,15 @@ class BRRecordViewController: UIViewController, UITableViewDelegate, UITableView
         case .Corse:
             let viewController = BRCorseListViewController()
             navigationController?.pushViewController(viewController, animated: true)
+            
         case .Date:
             let viewController = BRDateViewController()
             navigationController?.pushViewController(viewController, animated: true)
+            
+        case .Distance:
+            let viewController = BRDistanceViewController()
+            navigationController?.pushViewController(viewController, animated: true)
+            
         default:
             print("hoge")
         }

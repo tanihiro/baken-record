@@ -34,6 +34,8 @@
 		2F8731711BB81A0F002E4C59 /* BRContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F87316F1BB81A0F002E4C59 /* BRContainerViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		2FE494B11BB99E7C00909DDA /* BRDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE494AF1BB99E7C00909DDA /* BRDateViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2FE494B21BB99E7C00909DDA /* BRDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE494B01BB99E7C00909DDA /* BRDateViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		2FE494B51BBA0B1200909DDA /* BRDistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE494B31BBA0B1200909DDA /* BRDistanceViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2FE494B61BBA0B1200909DDA /* BRDistanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE494B41BBA0B1200909DDA /* BRDistanceViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		2F87316F1BB81A0F002E4C59 /* BRContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRContainerViewController.xib; path = Containers/BRContainerViewController.xib; sourceTree = "<group>"; };
 		2FE494AF1BB99E7C00909DDA /* BRDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRDateViewController.swift; sourceTree = "<group>"; };
 		2FE494B01BB99E7C00909DDA /* BRDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRDateViewController.xib; sourceTree = "<group>"; };
+		2FE494B31BBA0B1200909DDA /* BRDistanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRDistanceViewController.swift; sourceTree = "<group>"; };
+		2FE494B41BBA0B1200909DDA /* BRDistanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRDistanceViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 				2F0EB4B61BB981B600EAF4C5 /* BRCorseListViewController.xib */,
 				2FE494AF1BB99E7C00909DDA /* BRDateViewController.swift */,
 				2FE494B01BB99E7C00909DDA /* BRDateViewController.xib */,
+				2FE494B31BBA0B1200909DDA /* BRDistanceViewController.swift */,
+				2FE494B41BBA0B1200909DDA /* BRDistanceViewController.xib */,
 			);
 			path = Record;
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 				TargetAttributes = {
 					2F8731331BB811AC002E4C59 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 64JL4AJ8WT;
 					};
 					2F87314A1BB811AC002E4C59 = {
 						CreatedOnToolsVersion = 7.0;
@@ -355,6 +362,7 @@
 				2F0EB4A21BB95D3200EAF4C5 /* BRMoneyCell.xib in Resources */,
 				2F87313D1BB811AC002E4C59 /* Main.storyboard in Resources */,
 				2FE494B21BB99E7C00909DDA /* BRDateViewController.xib in Resources */,
+				2FE494B61BBA0B1200909DDA /* BRDistanceViewController.xib in Resources */,
 				2F0EB4A61BB9631200EAF4C5 /* BRDataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +397,7 @@
 				2F5310581BB8B1B200D22D9C /* UIView+IBInspectable.swift in Sources */,
 				2F0EB4A91BB9642400EAF4C5 /* BRSegmentCell.swift in Sources */,
 				2F8731401BB811AC002E4C59 /* baken_record.xcdatamodeld in Sources */,
+				2FE494B51BBA0B1200909DDA /* BRDistanceViewController.swift in Sources */,
 				2F0EB4AD1BB964C400EAF4C5 /* BRTextareaCell.swift in Sources */,
 				2F8731381BB811AC002E4C59 /* AppDelegate.swift in Sources */,
 				2FE494B11BB99E7C00909DDA /* BRDateViewController.swift in Sources */,
@@ -532,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "baken-record/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tanihiro.baken-record";
@@ -543,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "baken-record/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tanihiro.baken-record";
