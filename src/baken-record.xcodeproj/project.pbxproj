@@ -20,6 +20,8 @@
 		2F0EB4B41BB97F4300EAF4C5 /* BRCustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EB4B31BB97F4300EAF4C5 /* BRCustomTextView.swift */; settings = {ASSET_TAGS = (); }; };
 		2F0EB4B71BB981B600EAF4C5 /* BRCorseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EB4B51BB981B600EAF4C5 /* BRCorseListViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2F0EB4B81BB981B600EAF4C5 /* BRCorseListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EB4B61BB981B600EAF4C5 /* BRCorseListViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		2F4757191BCBF838007AE842 /* BRCustomAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4757181BCBF838007AE842 /* BRCustomAccessoryView.swift */; settings = {ASSET_TAGS = (); }; };
+		2F47571B1BCBF849007AE842 /* BRCustomAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F47571A1BCBF849007AE842 /* BRCustomAccessoryView.xib */; settings = {ASSET_TAGS = (); }; };
 		2F5310511BB8406500D22D9C /* BRRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F53104F1BB8406500D22D9C /* BRRecordViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2F5310521BB8406500D22D9C /* BRRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5310501BB8406500D22D9C /* BRRecordViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		2F5310581BB8B1B200D22D9C /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5310571BB8B1B200D22D9C /* UIView+IBInspectable.swift */; settings = {ASSET_TAGS = (); }; };
@@ -69,6 +71,8 @@
 		2F0EB4B31BB97F4300EAF4C5 /* BRCustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRCustomTextView.swift; sourceTree = "<group>"; };
 		2F0EB4B51BB981B600EAF4C5 /* BRCorseListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRCorseListViewController.swift; sourceTree = "<group>"; };
 		2F0EB4B61BB981B600EAF4C5 /* BRCorseListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRCorseListViewController.xib; sourceTree = "<group>"; };
+		2F4757181BCBF838007AE842 /* BRCustomAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRCustomAccessoryView.swift; sourceTree = "<group>"; };
+		2F47571A1BCBF849007AE842 /* BRCustomAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRCustomAccessoryView.xib; sourceTree = "<group>"; };
 		2F53104F1BB8406500D22D9C /* BRRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRRecordViewController.swift; sourceTree = "<group>"; };
 		2F5310501BB8406500D22D9C /* BRRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRRecordViewController.xib; sourceTree = "<group>"; };
 		2F5310571BB8B1B200D22D9C /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
@@ -121,6 +125,7 @@
 		2F0EB49D1BB95CC200EAF4C5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2F4757171BCBF7C6007AE842 /* Common */,
 				2F0EB49E1BB95CD200EAF4C5 /* Cells */,
 			);
 			path = Views;
@@ -141,6 +146,15 @@
 				2F0EB4B01BB9778B00EAF4C5 /* BRTextCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		2F4757171BCBF7C6007AE842 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2F4757181BCBF838007AE842 /* BRCustomAccessoryView.swift */,
+				2F47571A1BCBF849007AE842 /* BRCustomAccessoryView.xib */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		2F53104E1BB8403000D22D9C /* Record */ = {
@@ -363,6 +377,7 @@
 				2F87313D1BB811AC002E4C59 /* Main.storyboard in Resources */,
 				2FE494B21BB99E7C00909DDA /* BRDateViewController.xib in Resources */,
 				2FE494B61BBA0B1200909DDA /* BRDistanceViewController.xib in Resources */,
+				2F47571B1BCBF849007AE842 /* BRCustomAccessoryView.xib in Resources */,
 				2F0EB4A61BB9631200EAF4C5 /* BRDataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4757191BCBF838007AE842 /* BRCustomAccessoryView.swift in Sources */,
 				2F0EB4A51BB9631200EAF4C5 /* BRDataCell.swift in Sources */,
 				2F0EB4B71BB981B600EAF4C5 /* BRCorseListViewController.swift in Sources */,
 				2F0EB4A11BB95D3200EAF4C5 /* BRMoneyCell.swift in Sources */,

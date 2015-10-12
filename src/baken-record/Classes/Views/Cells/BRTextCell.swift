@@ -17,6 +17,12 @@ class BRTextCell: UITableViewCell {
         // Initialization code
         
         selectionStyle = .None
+        let accessoryView = BRCustomAccessoryView()
+        accessoryView.closeClosure = {
+            [weak self] in
+            self?.textField.resignFirstResponder()
+        }
+        textField.inputAccessoryView = accessoryView
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
